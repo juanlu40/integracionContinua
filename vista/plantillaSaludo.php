@@ -1,7 +1,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>ESTE ES SU RESULTADO</title>
+        <title>PlantillaSaludo</title>
         <style>
             h1{
                 color:red;
