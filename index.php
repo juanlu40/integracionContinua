@@ -1,17 +1,18 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
     <head>
         <meta charset="UTF-8">
         <title></title>
+        <link rel="stylesheet" href="css/estilo.css"/>
     </head>
     <body>
-        <?php
-        // put your code here
-        ?>
+        <h1>INGRESAR TEXTO</h1>
+        <form action="./controlador/Saludo.php" method="get">
+            <ul>
+                <li><label for="texto">A CONVERTIR</label>
+                    <input type="text" pattern="[a-zA-Z\s]*" id="texto" name="texto" value=""/></li>
+            </ul>
+                <button type="submit" value="enviar">Enviar</button>
+        </form>
     </body>
 </html>
