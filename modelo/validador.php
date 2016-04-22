@@ -3,9 +3,14 @@
 namespace integracionContinua\modelo;
 
 class validador{
+    private $saludo="";
     
-        public function validar($saludo){
-        return (strlen($saludo));
+        public function setSaludo($saludo){
+            $this->saludo=$saludo;
     }
+    
+        public function formatSaludo(){
+            return "";
+        }
     
 }
